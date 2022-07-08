@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+<h1>CONTACT ME</h1>
+<br><br>
+<div class="container-lg">
+  <div class="row">
+    <div class="col col-lg-6 col-md-12 contact-item">
+      <img class="image" src="/images/mypic.jpg" alt="image of me">
+    </div>
+    <div class="col col-lg-6 col-md-12  contact-item">
+
+      <p>  Name : Nkeh Jessy</p>
+      <p>phone: +237-650-54-85-52</p>
+      <p>email: nkehhotter@gmail.com</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <% array.forEach(function(item){ %>
+      <div class="item">
+
+            <input type="text" name="item"  value="<%= item %>">
+      </div>
+
+
+  <% }); %>
+  <form  action="/" method="post">
+
+      <div class="item">
+
+        <input type="text" name="newItem" placeholder="add new item">
+      </div>
+<button class="button" type="submit" name="button" >+</button>
+
+
+
+  </form>
+
+</div>
+
+
+
+<%- include('partials/footer') %>

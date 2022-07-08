@@ -1,0 +1,55 @@
+.image{
+  border-radius: 50%;
+  height: 50%;
+  width:  50%;
+  text-align: center;
+}
+body{
+  background-color: #F9F2ED;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  color: #F66B0E;
+  font-family:fantasy;
+}
+.contact-item{
+  padding: 5%;
+}
+p{
+  font-size: 1.5rem;
+
+}
+
+.item {
+  text-align: center;
+
+}
+.button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #F66B0E;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+
+}
