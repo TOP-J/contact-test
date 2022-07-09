@@ -2,7 +2,7 @@ const ejs = require('ejs');
 const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
-const PORT = process.env.PORT||5000;
+const PORT = process.env.PORT;
 
 var array = ['add new items with +'];
 const app = express();
@@ -27,5 +27,5 @@ res.redirect('/');
 
 
 app.listen(PORT, function(){
-  console.log("listening on port $'PORT'");
+  console.log('listening on port ${PORT}');
 });
