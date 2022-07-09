@@ -2,7 +2,7 @@ const ejs = require('ejs');
 const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT||5000;
 
 var array = ['add new items with +'];
 const app = express();
